@@ -1,0 +1,56 @@
+.landingcontainer {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    width: 20%;
+    padding: 10px;
+}
+
+
+.imagecont {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    margin: 50px 80px;
+}
+
+.icon-wrap {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    margin: 35px 80px;
+    width: 55px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+
+
+}
+
+
+.icon-wrap:hover {
+    transform: scale(1.2);
+}
+
+
+.homecont {
+    display: flex;
+    align-items: start;
+
+}
+
+
+.text {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 38%;
+    font-weight: bold;
+}
+
+
+
+.logo {
+    width: 140px;
+}
