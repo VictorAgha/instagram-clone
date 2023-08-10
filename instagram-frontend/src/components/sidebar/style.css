@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     border: 1px solid #ccc;
-    width: 20%;
+    width: 15%;
     padding: 10px;
 }
 
@@ -13,7 +13,7 @@
     justify-content: start;
     align-items: start;
     flex-direction: row;
-    margin: 50px 80px;
+    margin: 50px 30px;
 }
 
 .icon-wrap {
@@ -21,7 +21,7 @@
     justify-content: start;
     align-items: start;
     flex-direction: row;
-    margin: 35px 80px;
+    margin: 35px 30px;
     width: 55px;
     transition: transform 0.2s ease-in-out;
     cursor: pointer;
